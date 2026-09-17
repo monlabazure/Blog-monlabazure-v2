@@ -1,0 +1,85 @@
+baseURL: "https://monlabazure.fr/"
+languageCode: "fr-fr"
+defaultContentLanguage: "fr"
+title: "MonLabAzure"
+theme: ["PaperMod"]
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "MonLabAzure"
+  description: "Blog technique autour des infrastructures, du cloud Azure et de l’automatisation."
+  author: "MonLabAzure"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  showtoc: true
+  tocopen: false
+
+  homeInfoParams:
+    Title: "MonLabAzure"
+    Content: "Comprendre, concevoir et sécuriser Azure comme un architecte."
+
+  label:
+    text: "MonLabAzure"
+    icon: "/images/branding/monlabazure-icon-192.png"
+    iconHeight: 34
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+    theme_color: "#0F172A"
+    msapplication_TileColor: "#0F172A"
+
+  cover:
+    responsiveImages: true
+    linkFullImages: true
+
+menus:
+  main:
+    - name: "Commencer"
+      url: "/commencer/"
+      weight: 10
+    - name: "On-Premises"
+      url: "/on-premises/"
+      weight: 20
+    - name: "Microsoft 365 & Entra"
+      url: "/microsoft-365-entra/"
+      weight: 30
+    - name: "Azure"
+      url: "/azure/"
+      weight: 40
+    - name: "Automatisation"
+      url: "/automatisation/"
+      weight: 50
+    - name: "Cloud Platform"
+      url: "/cloud-platform/"
+      weight: 60
+    - name: "Exploitation"
+      url: "/exploitation/"
+      weight: 70
+    - name: "Projets"
+      url: "/projets/"
+      weight: 80
+    - name: "Veille"
+      url: "/veille/"
+      weight: 90
+    - name: "À propos"
+      url: "/a-propos/"
+      weight: 100

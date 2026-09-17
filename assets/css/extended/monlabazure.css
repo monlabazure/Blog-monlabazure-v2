@@ -1,0 +1,33 @@
+:root {
+  --monlabazure-navy: #0f172a;
+  --monlabazure-blue: #0078d4;
+  --monlabazure-sky: #38bdf8;
+}
+
+#menu {
+  gap: 0.15rem;
+}
+
+#menu a {
+  padding: 0.4rem 0.52rem;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+#menu a:hover,
+#menu .active {
+  color: var(--monlabazure-blue);
+  background: rgba(0, 120, 212, 0.08);
+}
+
+@media (max-width: 1100px) {
+  .nav {
+    max-width: 100%;
+  }
+
+  #menu {
+    overflow-x: auto;
+    scrollbar-width: thin;
+    padding-bottom: 0.25rem;
+  }
+}

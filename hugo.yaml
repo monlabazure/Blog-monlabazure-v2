@@ -32,7 +32,8 @@ params:
 
   homeInfoParams:
     Title: "MonLabAzure"
-    Content: "Comprendre, concevoir et sécuriser Azure comme un architecte."
+    Content: "MonLabAzure est un laboratoire technique dédié aux infrastructures Microsoft, aux architectures hybrides et à Azure. Le parcours part d’un environnement on-premises réaliste, puis évolue progressivement vers Microsoft 365, Microsoft Entra ID, Azure, l’automatisation et le DevOps. L’objectif est de construire, comprendre, sécuriser et industrialiser chaque brique avec une approche proche de la production."
+     
 
   label:
     text: "MonLabAzure"
